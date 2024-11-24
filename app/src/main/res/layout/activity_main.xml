@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 1: Рисование дома" />
+
+    <Button
+        android:id="@+id/btnTask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 2: Анимация спрайтов" />
+
+    <Button
+        android:id="@+id/btnTask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 3: Эффект частиц" />
+    <Button
+        android:id="@+id/btnTask4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 4: Фонтан частиц" />
+    <Button
+        android:id="@+id/btnTask5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 5: Музыка" />
+    <Button
+        android:id="@+id/btnTask6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Задание 6: Видео" />
+</LinearLayout>
